@@ -1,0 +1,23 @@
+<div class="col-lg-6">
+  <h4>Help</h4>
+  <ul>
+    <li>
+      <a href="https://github.com/phoenixframework/phoenix/issues?state=open">Issues</a>
+    </li>
+    <li>
+      <a href="irc://irc.freenode.net/elixir-lang">#elixir-lang on freenode IRC</a>
+    </li>
+    <li>
+      <a href="https://twitter.com/chris_mccord">@chris_mccord</a>
+    </li>
+  </ul>
+
+  <h4>Team</h4>
+  <ul>
+    <= for member <- @members do %>
+      <li>
+        <= members.body %>
+      </li>
+    < end %>
+  </ul>
+</div>
